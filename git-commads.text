@@ -1,0 +1,51 @@
+Here are some common Git commands along with a brief explanation of each:
+
+Initialization:
+git init: Initializes a new Git repository in the current directory.
+
+Clone:
+git clone <repository_url>: Copies a remote repository to your local machine.
+
+Basic Configuration:
+git config --global user.name "Your Name": Sets your name for commits.
+git config --global user.email "your@email.com": Sets your email for commits.
+
+Staging Changes:
+git add <file>: Stages changes for the next commit.
+git add . or git add -A: Stages all changes.
+
+Committing Changes:
+git commit -m "Your commit message": Commits the staged changes.
+
+Viewing Changes:
+git status: Shows the status of changes.
+git diff: Displays the differences between the working directory and the last commit.
+
+Branching:
+git branch: Lists all local branches.
+git branch <branch_name>: Creates a new branch.
+git checkout <branch_name>: Switches to the specified branch.
+git checkout -b <new_branch>: Creates and switches to a new branch in one command.
+git merge <branch_name>: Merges changes from another branch into the current branch.
+
+Remote Repositories:
+git remote -v: Lists remote repositories.
+git remote add <remote_name> <repository_url>: Adds a new remote repository.
+git pull <remote_name> <branch>: Fetches and merges changes from a remote repository.
+git push <remote_name> <branch>: Pushes changes to a remote repository.
+
+History and Log:
+git log: Displays commit history.
+git log --oneline: Condenses the log to one line per commit.
+git blame <file>: Shows who last modified each line in a file.
+
+Undoing Changes:
+git reset <file>: Unstages changes.
+git reset --hard HEAD: Discards all changes in the working directory.
+
+Tagging:
+git tag <tag_name>: Creates a lightweight tag for the current commit.
+git tag -a <tag_name> -m "Tag message": Creates an annotated tag with a message.
+
+
+These are just some of the fundamental Git commands. Git has a rich set of features, so depending on your workflow, you may find other commands and options useful as well. You can use git --help or git <command> --help for more detailed information on each command.
